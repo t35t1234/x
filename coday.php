@@ -2,7 +2,7 @@
 //random all voc tada 0.2 by @riyancoday 
 error_reporting(0);
 $ch = curl_init();
-$c = 'https://e.gift.id/C'.rand(11082016,99999999); //v2
+$c = 'https://tada.gift.id/C'.rand(11082016,99999999); //v2
 	curl_setopt($ch, CURLOPT_URL, $c);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
